@@ -1,0 +1,38 @@
+BODY {
+	color: #CF8E5F;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+				scrollbar-base-color : #FFA665;
+		scrollbar-face-color : #7A4133;
+		scrollbar-highlight-color : #A87467;
+												scrollbar-arrow-color : #FFA665;
+																																																																}
+
+TABLE, TD, TR, TH {
+	color: #CF8E5F;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+A {
+	color: #BC8B83;
+	text-decoration : underline;
+		font-size : 12px;
+		font-weight : bold;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+	
+A:HOVER {
+	color: #BC7876;
+		text-decoration : overline;
+		font-weight : bold;
+}
+
+.gross{
+	color: #DE9552;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+		font-weight : bold;
+		font-style : normal;
+}

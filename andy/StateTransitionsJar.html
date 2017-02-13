@@ -1,0 +1,34 @@
+<html>
+  <head>
+      <title>Trade State Transitions</title>
+  </head>
+  <body>
+      <h1>Trade State Transitions</h1>
+      <hr>
+      <applet code="Graph.class" archive="graph.jar" width=1280 height=800>
+	<!--param name=edges value="Start-Proposed/Propose,Proposed-Approved/Approve,Approved-Printed&Locked/Lock,Printed&Locked-Placed,Placed-Filled,Filled-Confirmed,Confirmed-SecSettled,Confirmed-CashSettled,SecSettled-Delivered,CashSettled-Delivered,Delivered-Reconciled"-->
+	
+	<!--
+	select fr.workflow_state_name || '(' || fr.workflow_state_id || ')' ||
+	    '-' || 
+		too.workflow_state_name || '(' || too.workflow_state_id || ')' || 
+		'/' ||
+		act.workflow_action_name || '(' || act.workflow_action_id || ')'
+from api_workflow_state fr, api_workflow_state too, 
+api_workflow_transition tran,
+api_workflow_action act
+where fr.workflow_id = 1
+and tran.from_state = fr.WORKFLOW_STATE_ID
+and tran.TO_STATE = too.WORKFLOW_STATE_ID
+and tran.WORKFLOW_ACTION_ID = act.WORKFLOW_ACTION_ID
+
+	-->
+	<param name=edges value="CashSettled(3014)-Delivered(3002)/Settle Trade Security(8),CashSettled(3014)-Confirmed(3001)/Unsettle Trade Cash(90),SecuritySettled(3015)-Delivered(3002)/Settle Trade Cash(7),SecuritySettled(3015)-Confirmed(3001)/Unsettle Trade Security(91),Start(3000)-Proposed(3009)/Propose Trade(1),Confirmed(3001)-CashSettled(3014)/Settle Trade Cash(7),Confirmed(3001)-SecuritySettled(3015)/Settle Trade Security(8),Delivered(3002)-Reconciled(3006)/Reconcile Trade(27),Delivered(3002)-CashSettled(3014)/Unsettle Trade Security(91),Delivered(3002)-SecuritySettled(3015)/Unsettle Trade Cash(90),Filled(3005)-Confirmed(3001)/Confirm Trade(6),Placed(3007)-Filled(3005)/Fill Trade(5),Locked(3008)-Placed(3007)/Place Trade(4),Proposed(3009)-Abandoned(3004)/Abandon Trade(52),Proposed(3009)-Approved(3012)/Approve Trade(2),Approved(3012)-Abandoned(3004)/Abandon Trade(52),Approved(3012)-Proposed(3009)/Cancel Trade(53),Approved(3012)-Locked(3008)/Print and Lock Trade(3),Reconciled(3006)-Delivered(3002)/Unreconcile Trade(93)">
+      	alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+	Your browser is completely ignoring the &lt;APPLET&gt; tag!
+      </applet>
+      <hr>
+      <a href="Graph.java">The source</a>.
+  </body>
+</html>
+

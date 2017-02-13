@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="intro" title="Sudoku">
+<p>
+Sudoku! The totally addictive logic puzzle.
+</p>
+<p>
+Now you can play it on your phone anyplace, anytime...
+</p>
+<p>
+<anchor>
+  How to play..
+  <go href="#howtoplay"/>
+ </anchor>
+</p>
+</card>
+
+<card id="howtoplay" title="How to play">
+<p>
+The rules of Sudoku are simple: 
+</p>
+<p>
+Simply fill in the grid so that every row, column and 3x3 box contain the numbers 1 to 9.
+</p>
+<p><b>Remember:</b> each number should appear only once in any row, column or 3x3 box.
+</p>
+<p>
+<anchor>
+  back
+  <go href="#intro"/>
+ </anchor>
+<anchor>
+  More...
+  <go href="#controls"/>
+ </anchor>
+</p>
+</card>
+
+<card id="controls" title="Game controls">
+<p>
+<b>To move the cursor:</b> use your phone's keypad or joystick.
+</p>
+<p>
+<b>To enter a number:</b> choose "MARK" and press the number you wish to enter on your phone's keypad.
+</p>
+<p>
+<b>To erase a number:</b> choose "MARK" and press the 0 key on your phone's keypad.
+</p>
+<p>
+<anchor>
+  back
+  <go href="#howtoplay"/>
+ </anchor>
+<anchor>
+  More...
+  <go href="#download"/>
+ </anchor>
+</p>
+</card>
+
+
+<card id="download" title="Download Sudoku">
+<p>
+Here you can download the Sudoku game for java-enabled phones.
+</p>
+<p>
+<a href="Sudoku.jad">Download Sudoku</a>
+</p>
+<p>
+<anchor>back<go href="#controls"/></anchor>
+</p>
+<p>
+(c) Stan Bad Raga 2005
+</p>
+
+</card>
+
+</wml>
+
