@@ -1,0 +1,76 @@
+App.progressCountTotal = 9;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/DSC_0025.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'DSC_0025.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0025_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0025_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0025_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0025_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0025_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0025_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/DSC_0036.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'DSC_0036.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0036_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0036_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/DSC_0036_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0036_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0036_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/DSC_0036_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/phil stage.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'phil stage.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/phil stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/phil stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/phil stage_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/phil stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/phil stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/phil stage_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/ss stage.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'ss stage.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/ss stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/ss stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/ss stage_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/ss stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/ss stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/ss stage_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/tbr in hats.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'tbr in hats.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr in hats_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr in hats_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr in hats_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr in hats_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr in hats_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr in hats_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/tbr stage.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'tbr stage.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/tbr stage1.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'tbr stage1.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage1_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/tbr stage1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage1_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/tbr stage1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/thomas 2 hats .JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'thomas 2 hats .JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats _JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats _JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats _JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats _JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats _JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats _JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Dynamo1204/web/thomas 2 hats.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'thomas 2 hats.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/images/thomas 2 hats_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-dynamo/thumbnails/thomas 2 hats_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

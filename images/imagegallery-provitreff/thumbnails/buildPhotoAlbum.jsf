@@ -1,0 +1,108 @@
+App.progressCountTotal = 13;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/bar.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'bar.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/bar_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/bar_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/bar_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/bar_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/bar_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/bar_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/crossstage2.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'crossstage2.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crossstage2_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crossstage2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crossstage2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crossstage2_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crossstage2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crossstage2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/crowd1.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'crowd1.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd1_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd1_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/crowd2.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'crowd2.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd2_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd2_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd2_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd2_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd2_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/crowd3.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'crowd3.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd3_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/crowd3_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd3_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd3_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/crowd3_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/keith and andy.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'keith and andy.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and andy_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and andy_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and andy_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and andy_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and andy_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and andy_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/keith and phil.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'keith and phil.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and phil_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and phil_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith and phil_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and phil_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and phil_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith and phil_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/keith rocking .jPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'keith rocking .jPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith rocking _jPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith rocking _jPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/keith rocking _jPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith rocking _jPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith rocking _jPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/keith rocking _jPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/nazime1.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'nazime1.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime1_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime1_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/nazime3.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'nazime3.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime3_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/nazime3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime3_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/nazime3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/Phil.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'Phil.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/Phil_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/Phil_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/Phil_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/Phil_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/Phil_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/Phil_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/setup2.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'setup2.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/setup2_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/setup2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/setup2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/setup2_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/setup2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/setup2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/steve.JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'steve.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/steve_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/steve_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/images/steve_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/steve_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/steve_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-provitreff/thumbnails/steve_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

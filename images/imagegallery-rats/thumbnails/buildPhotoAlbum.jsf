@@ -1,0 +1,332 @@
+App.progressCountTotal = 41;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/1.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1325_IMG.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '113-1325_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1325_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1325_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1325_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1325_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1325_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1325_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1330_IMG.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '113-1330_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1330_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1330_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1330_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1330_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1330_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1330_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1331_IMG.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '113-1331_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1331_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1331_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1331_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1331_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1331_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1331_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1338_IMG.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '113-1338_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1338_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1338_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1338_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1338_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1338_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1338_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1344_IMG.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '113-1344_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1344_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1344_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1344_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1344_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1344_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1344_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1349_IMG.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '113-1349_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1349_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1349_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1349_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1349_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1349_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1349_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1355_IMG.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '113-1355_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1355_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1355_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1355_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1355_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1355_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1355_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1358_IMG.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '113-1358_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1358_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1358_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1358_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1358_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1358_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1358_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1361_IMG.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '113-1361_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1361_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1361_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1361_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1361_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1361_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1361_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1383_IMG.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '113-1383_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1383_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1383_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1383_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1383_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1383_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1383_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1389_IMG.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '113-1389_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1389_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1389_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1389_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1389_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1389_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1389_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/113-1400_IMG.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = '113-1400_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1400_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1400_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/113-1400_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1400_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1400_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/113-1400_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1415_IMG.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = '114-1415_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1415_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1415_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1415_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1415_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1415_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1415_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1416_IMG.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = '114-1416_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1416_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1416_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1416_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1416_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1416_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1416_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1423_IMG.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = '114-1423_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1423_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1423_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1423_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1423_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1423_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1423_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1437_IMG.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = '114-1437_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1437_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1437_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1437_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1437_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1437_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1437_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1439_IMG.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = '114-1439_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1439_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1439_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1439_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1439_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1439_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1439_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1446_IMG.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = '114-1446_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1446_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1446_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1446_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1446_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1446_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1446_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1451_IMG.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = '114-1451_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1451_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1451_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1451_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1451_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1451_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1451_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1452_IMG.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = '114-1452_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1452_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1452_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1452_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1452_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1452_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1452_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1456_IMG.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = '114-1456_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1456_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1456_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1456_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1456_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1456_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1456_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1457_IMG.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = '114-1457_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1457_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1457_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1457_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1457_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1457_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1457_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1464_IMG.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = '114-1464_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1464_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1464_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1464_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1464_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1464_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1464_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1466_IMG.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = '114-1466_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1466_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1466_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1466_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1466_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1466_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1466_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1480_IMG.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = '114-1480_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1480_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1480_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1480_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1480_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1480_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1480_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1484_IMG.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = '114-1484_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1484_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1484_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1484_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1484_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1484_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1484_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1495_IMG.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = '114-1495_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1495_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1495_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1495_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1495_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1495_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1495_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1498_IMG.jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = '114-1498_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1498_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1498_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1498_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1498_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1498_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1498_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/114-1499_IMG.jpg');
+App.progressCountCurrent = 30;
+App.batchStatusString = '114-1499_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1499_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1499_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/114-1499_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1499_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1499_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/114-1499_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1523_IMG.jpg');
+App.progressCountCurrent = 31;
+App.batchStatusString = '115-1523_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1523_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1523_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1523_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1523_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1523_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1523_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1529_IMG.jpg');
+App.progressCountCurrent = 32;
+App.batchStatusString = '115-1529_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1529_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1529_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1529_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1529_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1529_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1529_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1530_IMG.jpg');
+App.progressCountCurrent = 33;
+App.batchStatusString = '115-1530_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1530_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1530_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1530_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1530_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1530_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1530_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1550_IMG.jpg');
+App.progressCountCurrent = 34;
+App.batchStatusString = '115-1550_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1550_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1550_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1550_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1550_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1550_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1550_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1561_IMG.jpg');
+App.progressCountCurrent = 35;
+App.batchStatusString = '115-1561_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1561_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1561_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1561_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1561_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1561_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1561_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1568_IMG.jpg');
+App.progressCountCurrent = 36;
+App.batchStatusString = '115-1568_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1568_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1568_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1568_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1568_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1568_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1568_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1570_IMG.jpg');
+App.progressCountCurrent = 37;
+App.batchStatusString = '115-1570_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1570_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1570_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1570_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1570_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1570_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1570_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/115-1574_IMG.jpg');
+App.progressCountCurrent = 38;
+App.batchStatusString = '115-1574_IMG.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1574_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1574_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/115-1574_IMG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1574_IMG_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1574_IMG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/115-1574_IMG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/55_BadRagazGig_2003_0116.jpg');
+App.progressCountCurrent = 39;
+App.batchStatusString = '55_BadRagazGig_2003_0116.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/55_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/55_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/55_BadRagazGig_2003_0116_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/55_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/55_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/55_BadRagazGig_2003_0116_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/57_BadRagazGig_2003_0116.jpg');
+App.progressCountCurrent = 40;
+App.batchStatusString = '57_BadRagazGig_2003_0116.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/57_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/57_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/57_BadRagazGig_2003_0116_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/57_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/57_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/57_BadRagazGig_2003_0116_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/material/BadRagas-Rats0103/59_BadRagazGig_2003_0116.jpg');
+App.progressCountCurrent = 41;
+App.batchStatusString = '59_BadRagazGig_2003_0116.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/59_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/59_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/images/59_BadRagazGig_2003_0116_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/59_BadRagazGig_2003_0116_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/59_BadRagazGig_2003_0116_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-rats/thumbnails/59_BadRagazGig_2003_0116_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

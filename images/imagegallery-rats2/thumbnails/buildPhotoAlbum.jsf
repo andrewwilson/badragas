@@ -1,0 +1,68 @@
+App.progressCountTotal = 8;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010206.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'P1010206.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010206_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010206_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010206_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010206_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010206_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010206_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010208.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'P1010208.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010208_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010208_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010208_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010208_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010208_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010208_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010224.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'P1010224.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010224_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010224_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010224_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010224_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010224_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010224_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010231.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'P1010231.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010231_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010231_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010231_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010231_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010231_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010231_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010239.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'P1010239.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010239_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010239_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010239_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010239_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010239_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010239_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010242.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'P1010242.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010242_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010242_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010242_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010242_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010242_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010242_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010250.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'P1010250.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010250_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010250_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010250_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010250_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010250_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010250_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/BadRagas-Rats1203/web/P1010253.JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'P1010253.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010253_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010253_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/images/P1010253_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010253_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010253_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-rats2/thumbnails/P1010253_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

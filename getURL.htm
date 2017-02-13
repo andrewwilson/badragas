@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01 Transitional//EN
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>GET URL</title>
+    </head>
+    <body>
+
+<?php
+/* gets the data from a URL */
+function get_data($url)
+{
+  $ch = curl_init();
+  $timeout = 5;
+  curl_setopt($ch,CURLOPT_URL,$url);
+  curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+  curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
+  $data = curl_exec($ch);
+  curl_close($ch);
+  return $data;
+}
+
+$returned_content = get_data('http://n.ethz.ch/~fumathia/geocache/redirect.php');
+
+?>
+
+
+
+    </body>
+</html> 

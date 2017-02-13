@@ -1,0 +1,44 @@
+App.progressCountTotal = 5;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/phil1.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'phil1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/phil1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/phil1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/phil1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/phil1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/phil1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/phil1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/steve1.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'steve1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/steve1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/steve1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/steve1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/steve1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/steve1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/steve1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/alex1.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'alex1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/alex1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/alex1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/alex1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/alex1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/alex1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/alex1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/andy1.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'andy1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/andy1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/andy1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/andy1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/andy1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/andy1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/andy1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/keith1.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'keith1.jpg';
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/keith1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/keith1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/images/keith1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/keith1_jpg.jpg') || confirm('file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/keith1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///E|/ragahome/bluedev-css-clean/Blau/images/imagegallery-drums/thumbnails/keith1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

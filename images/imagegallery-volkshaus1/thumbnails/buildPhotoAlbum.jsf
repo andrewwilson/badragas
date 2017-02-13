@@ -1,0 +1,180 @@
+App.progressCountTotal = 22;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/andy.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'andy.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/andy_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/andy_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/andy_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/andy_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/andy_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/andy_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02684_JPG.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'DSC02684_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02684_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02684_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02684_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02684_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02684_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02684_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02688_JPG.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'DSC02688_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02688_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02688_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02688_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02688_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02688_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02688_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02693_JPG.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'DSC02693_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02693_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02693_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02693_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02693_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02693_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02693_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02694_JPG.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'DSC02694_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02694_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02694_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02694_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02694_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02694_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02694_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02700_JPG.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'DSC02700_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02700_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02700_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02700_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02700_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02700_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02700_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02702_JPG.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'DSC02702_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02702_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02702_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02702_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02702_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02702_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02702_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02716_JPG.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'DSC02716_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02716_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02716_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02716_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02716_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02716_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02716_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02724_JPG.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'DSC02724_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02724_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02724_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02724_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02724_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02724_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02724_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02764_JPG.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'DSC02764_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02764_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02764_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02764_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02764_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02764_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02764_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02765_JPG.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'DSC02765_JPG.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02765_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02765_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/DSC02765_JPG_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02765_JPG_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02765_JPG_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/DSC02765_JPG_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/guitars.JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'guitars.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/guitars_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/guitars_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/guitars_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/guitars_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/guitars_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/guitars_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/lights up.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'lights up.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/lights up_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/lights up_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/lights up_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/lights up_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/lights up_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/lights up_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/on the nite.JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'on the nite.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/on the nite_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/on the nite_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/on the nite_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/on the nite_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/on the nite_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/on the nite_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil alex.JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'phil alex.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil alex_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil alex_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil alex_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil alex_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil alex_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil alex_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil on the mic.JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'phil on the mic.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil on the mic_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil on the mic_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil on the mic_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil on the mic_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil on the mic_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil on the mic_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil.JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'phil.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/phil_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/phil_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/schubi.JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'schubi.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/schubi_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/schubi_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/schubi_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/schubi_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/schubi_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/schubi_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/smiling.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'smiling.jpg';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/smiling_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/smiling_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/smiling_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/smiling_jpg.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/smiling_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/smiling_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/steve.JPG');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'steve.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/steve_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/steve_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/steve_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/steve_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/steve_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/steve_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite 1.JPG');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'top nite 1.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite 1_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite 1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite 1_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite 1_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite 1_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite 1_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite.JPG');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'top nite.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/images/top nite_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-volkshaus1/thumbnails/top nite_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';

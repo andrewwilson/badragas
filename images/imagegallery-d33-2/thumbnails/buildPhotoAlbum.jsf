@@ -1,0 +1,156 @@
+App.progressCountTotal = 19;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_010.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'D33_2004-01-15_010.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_010_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_010_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_010_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_010_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_010_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_010_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_024.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'D33_2004-01-15_024.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_024_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_024_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_024_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_024_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_024_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_024_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_026.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'D33_2004-01-15_026.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_026_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_026_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_026_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_026_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_026_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_026_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_028.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'D33_2004-01-15_028.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_028_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_028_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_028_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_028_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_028_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_028_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_034.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'D33_2004-01-15_034.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_034_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_034_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_034_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_034_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_034_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_034_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_036.JPG');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'D33_2004-01-15_036.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_036_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_036_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_036_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_036_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_036_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_036_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_037.JPG');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'D33_2004-01-15_037.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_037_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_037_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_037_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_037_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_037_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_037_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_041.JPG');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'D33_2004-01-15_041.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_041_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_041_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_041_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_041_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_041_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_041_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_044.JPG');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'D33_2004-01-15_044.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_044_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_044_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_044_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_044_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_044_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_044_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_048.JPG');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'D33_2004-01-15_048.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_048_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_048_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_048_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_048_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_048_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_048_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_050.JPG');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'D33_2004-01-15_050.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_050_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_050_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_050_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_050_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_050_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_050_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_056.JPG');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'D33_2004-01-15_056.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_056_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_056_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_056_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_056_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_056_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_056_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_057.JPG');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'D33_2004-01-15_057.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_057_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_057_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_057_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_057_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_057_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_057_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_063.JPG');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'D33_2004-01-15_063.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_063_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_063_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_063_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_063_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_063_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_063_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_064.JPG');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'D33_2004-01-15_064.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_064_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_064_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_064_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_064_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_064_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_064_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_066.JPG');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'D33_2004-01-15_066.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_066_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_066_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_066_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_066_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_066_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_066_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_067.JPG');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'D33_2004-01-15_067.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_067_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_067_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_067_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_067_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_067_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_067_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_068.JPG');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'D33_2004-01-15_068.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_068_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_068_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_068_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_068_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_068_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_068_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/pictures/badragasd33jan04/web/D33_2004-01-15_077.JPG');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'D33_2004-01-15_077.JPG';
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_077_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_077_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/images/D33_2004-01-15_077_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_077_JPG.jpg') || confirm('file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_077_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///D|/homepage/newhome/goldenrose1/images/imagegallery-d33-2/thumbnails/D33_2004-01-15_077_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';
