@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    height: 100vh;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header button {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer form {
+    margin-bottom: 20px;
+}
+
+footer input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer .social-media {
+    margin-bottom: 20px;
+}
