@@ -89,3 +89,25 @@ footer button {
 footer .social-media {
     margin-bottom: 20px;
 }
+
+.posters-gallery {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.poster-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.poster-item img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.poster-item img:hover {
+    transform: scale(1.05);
+}
