@@ -4,92 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Bad Ragas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-<header>
-    <h1>The Bad Ragas</h1>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#music">Music</a></li>
-            <li><a href="#social">Social</a></li>
-            <li><a href="archive/current-site/index.htm">Archive</a></li>
-        </ul>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#posters">Posters</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://instagram.com/thebadragas" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://youtube.com/@thebadragas2288" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="archive/current-site/index.htm">Archive</a></li>
+    </ul>
+</nav>
+<header id="home">
+    <div class="hero">
+        <h1>The Bad Ragas</h1>
+        <a href="#music">
+            <button>Listen Now</button>
+        </a>
+        <a href="#videos">
+            <button>Watch Now</button>
+        </a>
+        <a href="#about">
+            <button>Learn More</button>
+        </a>
+    </div>
 </header>
-
-<main>
-    <section id="home">
-        <h2>The Bad Ragas</h2>
-        <p>The Bad Ragas, formed in Zürich, Switzerland, long long ago have been rocking ever since.
-            Known for their energetic live shows and exciting mix of upbeat original music and well-known but unexpected
-            covers.</p>
-    </section>
-
-    <section id="subscribe">
-        <div class="g-ytsubscribe" data-channelid="UCpTy4OFF5rEfR8mzAYCuRgA" data-layout="full" data-theme="dark"
-             data-count="default"></div>
-    </section>
-
-    <section id="videos">
-        <section id="youtube-channel">
-
-            <div class="video-container">
-
-                <!-- Embedded playlist: Volkshaus Zuerich -->
-                <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/videoseries?list=PLK8ez1PUwdskyetrFtQ0ruO7aFTeEZtFf"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-
-                Volkshaus Zürich
-            </div>
-            <div class="video-container">
-                <!-- single video: Reload promo vid -->
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XGWGQgk9jAQ" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                Reload promo video
-            </div>
-
-            <p><a href="https://www.youtube.com/channel/UCpTy4OFF5rEfR8mzAYCuRgA" target="_blank">Visit our YouTube
-                Channel</a></p>
-        </section>
-
-    </section>
-
-    <section id="music">
+<section id="about">
+    <h2>About the Band</h2>
+    <p>The Bad Ragas, formed in Zürich, Switzerland, long long ago have been rocking ever since.
+        Known for their energetic live shows and exciting mix of upbeat original music and well-known but unexpected
+        covers
+    </p>
+</section>
+<section id="music">
+    <h2>Music</h2>
+    <div class="music-player">
         <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/3Ho7bBdiBFBzrtzqt68xOg?utm_source=generator" width="100%"
-                height="352"  allowfullscreen=""
+                src="https://open.spotify.com/embed/track/3Ho7bBdiBFBzrtzqt68xOg?utm_source=generator&theme=0"
+                width="100%" height="352" frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+                style="width:100%;overflow:hidden;background:transparent;"
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                src="https://embed.music.apple.com/gb/album/reload-single/1624592546">
 
-        <!-- Add more embedded Spotify songs as needed -->
-    </section>
+        </iframe>
+    </div>
+    <div class="music-player">
+        <a href="https://music.youtube.com/channel/UC3Z1y7Okr7tBQlNuZkEY19g?si=H2g9naMeYitZFv8z" target="_blank">
+            </a>&nbsp;YouTube Music&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://music.apple.com/gb/album/reload-single/1624592546">
+            <i class="fab fa-apple"></i></a>&nbsp;Apple Music&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://open.spotify.com/track/3Ho7bBdiBFBzrtzqt68xOg?si=5a6e3b3faa1046d6" target="_blank">
+            <i class="fab fa-spotify"></i></a>&nbsp;Spotify
+    </div>
 
-    <section id="social">
-        <h2>Follow Us</h2>
-        <ul>
-            <li><a href="https://instagram.com/thebadragas" target="_blank">Instagram</a></li>
-            <li><a href="https://youtube.com/@thebadragas2288" target="_blank">YouTube</a></li>
+</section>
+<section id="videos">
+    <h2>Videos</h2>
+    <div class="featured-video">
+        Volkshaus Zürich (Playlist)<br/>
+        <!-- Embedded playlist: Volkshaus Zuerich -->
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PLK8ez1PUwdskyetrFtQ0ruO7aFTeEZtFf"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
 
-            <!--            <li><a href="https://facebook.com/YOUR_PAGE" target="_blank">Facebook</a></li>-->
-            <!--            <li><a href="https://twitter.com/YOUR_PROFILE" target="_blank">Twitter</a></li>-->
+    </div>
+    <div class="featured-video">
+        Reload promo video <br/>
+        <!-- single video: Reload promo vid -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XGWGQgk9jAQ" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
 
-            <!-- Add more social media links as needed -->
-        </ul>
-    </section>
-</main>
+    </div>
 
-<!--<footer>-->
-<!--    <p>&copy; 2024 The Bad Ragas. All rights reserved.</p>-->
-<!--</footer>-->
+    <p><a href="https://www.youtube.com/channel/UCpTy4OFF5rEfR8mzAYCuRgA" target="_blank">
+        <i class="fab fa-youtube-square"></i></a>
+        Visit our YouTube Channel
+    </p>
 
 
-<script src="https://apis.google.com/js/platform.js"></script>
-
+    <div class="video-gallery">
+        <!-- Grid of video thumbnails -->
+    </div>
+</section>
+<section id="posters">
+    <h2>Posters</h2>
+    <div class="posters-gallery">
+        <!-- Masonry grid of posters -->
+    </div>
+</section>
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="photo-gallery">
+        <!-- Masonry grid of photos -->
+    </div>
+</section>
+<section id="store">
+    <h2>Store</h2>
+    <div class="merchandise">
+        <!-- Merchandise items -->
+    </div>
+</section>
+<footer>
+    <!--    <form id="newsletter">-->
+    <!--        <label for="email">Sign up for our newsletter</label>-->
+    <!--        <input type="email" id="email" name="email">-->
+    <!--        <button type="submit">Sign Up</button>-->
+    <!--    </form>-->
+    <div class="social-media">
+        <!-- Social media links -->
+    </div>
+    <p>&copy; 2024 The Bad Ragas</p>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
