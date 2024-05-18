@@ -94,6 +94,13 @@ footer .social-media {
     column-count: 3;
     column-gap: 1em;
 }
+@media (max-width: 768px) {
+    .posters-gallery {
+
+        column-count: 1;
+        column-gap: 1em;
+    }
+}
 
 .poster-item {
     display: inline-block;
@@ -110,4 +117,52 @@ footer .social-media {
 
 .poster-item img:hover {
     transform: scale(1.05);
+}
+
+
+/* Add media queries for mobile responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        display: none; /* Hide menu by default */
+    }
+
+    nav ul.active {
+        display: flex; /* Show menu when active */
+    }
+
+    nav li {
+        width: 100%;
+        padding: 5px;
+    }
+
+    nav a {
+        padding: 15px; /* Larger padding for easier touch targets */
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu on small screens */
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+    }
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none; /* Hide by default on larger screens */
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show on small screens */
+    }
 }
