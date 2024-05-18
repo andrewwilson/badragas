@@ -32,7 +32,7 @@ nav ul li a {
 
 header {
     height: 100vh;
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    background: url('../images/DSC02716_JPG.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +88,10 @@ footer button {
 
 footer .social-media {
     margin-bottom: 20px;
+}
+
+iframe {
+    border: 30px;
 }
 
 .posters-gallery {
