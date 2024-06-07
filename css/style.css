@@ -120,8 +120,33 @@ iframe {
 }
 
 .poster-item img:hover {
-    transform: scale(1.05);
+    /*transform: scale(1.05);*/
 }
+
+/* Define the keyframes for the flashing border animation */
+@keyframes flashing-border {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: red; /* Change to your desired border color */
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+/* Apply styles to the specific class for flashing border */
+.flashing-border {
+    border: 3px solid transparent; /* Initial border style */
+    transition: border 0.3s ease;
+}
+
+/* Apply the animation on hover to the specific class */
+.flashing-border:hover {
+    animation: flashing-border 0.5s infinite;
+}
+
 
 
 /* Add media queries for mobile responsiveness */
