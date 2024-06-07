@@ -6,6 +6,16 @@ body {
     color: #fff;
 }
 
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+ul li a:hover {
+    color: #d31717;
+}
+
 nav {
     position: sticky;
     top: 0;
