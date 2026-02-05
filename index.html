@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<nav>
+<nav aria-label="Primary">
     <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
         <span></span>
         <span></span>
@@ -45,19 +45,20 @@
 <section id="music">
     <h2>Music</h2>
     <div class="music-player">
-        <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/track/3Ho7bBdiBFBzrtzqt68xOg?utm_source=generator&theme=0"
-                title="Spotify player for Reload"
-                width="100%" height="352" frameborder="0" allowfullscreen
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-        <iframe title="Apple Music player for Reload"
-                allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
-                style="width:100%;overflow:hidden;background:transparent;"
-                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-                src="https://embed.music.apple.com/gb/album/reload-single/1624592546">
-
-        </iframe>
+        <div class="embed-wrap embed-wrap-square">
+            <iframe src="https://open.spotify.com/embed/track/3Ho7bBdiBFBzrtzqt68xOg?utm_source=generator&theme=0"
+                    title="Spotify player for Reload"
+                    allowfullscreen
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+        </div>
+        <div class="embed-wrap embed-wrap-tall">
+            <iframe title="Apple Music player for Reload"
+                    allow="autoplay *; encrypted-media *;"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                    src="https://embed.music.apple.com/gb/album/reload-single/1624592546"
+                    loading="lazy"></iframe>
+        </div>
     </div>
     <div class="music-player">
         <a href="https://music.youtube.com/channel/UC3Z1y7Okr7tBQlNuZkEY19g?si=H2g9naMeYitZFv8z" target="_blank" rel="noopener noreferrer">
@@ -77,31 +78,38 @@
     </p>
 
     <div class="featured-video">
-        <iframe title="DFG live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/heHorqF8mfQ" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <br/>DFG - Volkshaus Zürich<br/><br/>
+        <div class="embed-wrap embed-wrap-16x9">
+            <iframe title="DFG live at Volkshaus Zurich" src="https://www.youtube.com/embed/heHorqF8mfQ"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption">DFG - Volkshaus Zürich</p>
     </div>
     <div class="featured-video">
 
-        <iframe title="Reload live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/uGvzHVKVT7E" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <br/>Reload - Volkshaus Zürich<br/><br/>
+        <div class="embed-wrap embed-wrap-16x9">
+            <iframe title="Reload live at Volkshaus Zurich" src="https://www.youtube.com/embed/uGvzHVKVT7E"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption">Reload - Volkshaus Zürich</p>
     </div>
     <div class="featured-video">
-        <iframe title="Groovy Garda live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/AUCd56eLAH4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <br/>Groovy Garda - Volkshaus Zürich<br/><br/>
+        <div class="embed-wrap embed-wrap-16x9">
+            <iframe title="Groovy Garda live at Volkshaus Zurich" src="https://www.youtube.com/embed/AUCd56eLAH4"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption">Groovy Garda - Volkshaus Zürich</p>
     </div>
-    <br/>
     <div class="featured-video">
         <!-- single video: Reload promo vid -->
-        <iframe title="Reload promo video" width="560" height="315" src="https://www.youtube.com/embed/XGWGQgk9jAQ" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <br/>Reload promo video <br/><br/>
+        <div class="embed-wrap embed-wrap-16x9">
+            <iframe title="Reload promo video" src="https://www.youtube.com/embed/XGWGQgk9jAQ"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption">Reload promo video</p>
 
     </div>
 
@@ -110,20 +118,20 @@
 <section id="posters">
     <h2>Posters</h2>
     <div class="posters-gallery">
-        <div class="poster-item"><img src="images/posters/TBR-Volksh.jpg" alt="Volkshaus"></div>
-        <div class="poster-item"><img src="images/posters/E-Flyer-Bad-Ragas.jpg" alt="TBR"></div>
-        <div class="poster-item"><img src="images/posters/rats-flyer03.jpg" alt="RATS"></div>
-        <div class="poster-item"><img src="images/posters/tbr-bigben-flyer.jpg" alt="Big Ben"></div>
-        <div class="poster-item"><img src="images/posters/tbr-abart.jpg" alt="Abart"></div>
-        <div class="poster-item"><img src="images/posters/tbr-d33-sep04-flyer.jpg" alt="D33"></div>
-        <div class="poster-item"><img src="images/posters/TBR-Franziskaner-flyer.jpg" alt="Franziskaner"></div>
-        <div class="poster-item"><img src="images/posters/TBR-Paddy-flyer.jpg" alt="Paddy"></div>
-        <div class="poster-item"><img src="images/posters/tbrflyer-dec04.jpg" alt="Jingle Rock"></div>
-        <div class="poster-item"><img src="images/posters/tbr-provi-flyer.jpg" alt="Provitreff"></div>
-        <div class="poster-item"><img src="images/posters/TBR-Rizon-Dynamo-flyer.jpg" alt="Dynamo"></div>
-        <div class="poster-item"><img src="images/posters/tbr-strozzis-flyer.jpg" alt="Strozzis"></div>
-        <div class="poster-item"><img src="images/posters/TBR-SugarLounge1.jpg" alt="Sugar Lounge"></div>
-        <div class="poster-item flashing-border"><a href="badragas.htm"><img src="images/posters/brPic.jpg" alt="Page of Rock"></a></div>
+        <div class="poster-item"><img src="images/posters/TBR-Volksh.jpg" alt="The Bad Ragas poster for Volkshaus Zurich"></div>
+        <div class="poster-item"><img src="images/posters/E-Flyer-Bad-Ragas.jpg" alt="The Bad Ragas electronic show flyer"></div>
+        <div class="poster-item"><img src="images/posters/rats-flyer03.jpg" alt="The Bad Ragas and Rats event flyer"></div>
+        <div class="poster-item"><img src="images/posters/tbr-bigben-flyer.jpg" alt="The Bad Ragas flyer for Big Ben"></div>
+        <div class="poster-item"><img src="images/posters/tbr-abart.jpg" alt="The Bad Ragas flyer for Abart"></div>
+        <div class="poster-item"><img src="images/posters/tbr-d33-sep04-flyer.jpg" alt="The Bad Ragas flyer for D33 September 2004"></div>
+        <div class="poster-item"><img src="images/posters/TBR-Franziskaner-flyer.jpg" alt="The Bad Ragas flyer for Franziskaner"></div>
+        <div class="poster-item"><img src="images/posters/TBR-Paddy-flyer.jpg" alt="The Bad Ragas flyer for Paddy's"></div>
+        <div class="poster-item"><img src="images/posters/tbrflyer-dec04.jpg" alt="The Bad Ragas Jingle Rock flyer December 2004"></div>
+        <div class="poster-item"><img src="images/posters/tbr-provi-flyer.jpg" alt="The Bad Ragas flyer for Provitreff"></div>
+        <div class="poster-item"><img src="images/posters/TBR-Rizon-Dynamo-flyer.jpg" alt="The Bad Ragas flyer for Rizon Dynamo"></div>
+        <div class="poster-item"><img src="images/posters/tbr-strozzis-flyer.jpg" alt="The Bad Ragas flyer for Strozzis"></div>
+        <div class="poster-item"><img src="images/posters/TBR-SugarLounge1.jpg" alt="The Bad Ragas flyer for Sugar Lounge"></div>
+        <div class="poster-item flashing-border"><a href="badragas.htm"><img src="images/posters/brPic.jpg" alt="Link to legacy Page of Rock"></a></div>
         <!-- Add more posters as needed -->
     </div>
 </section>
@@ -131,17 +139,15 @@
     <h2>Photo Gallery</h2>
     <div class="photo-gallery">
         <!-- Masonry grid of photos -->
-        <div class="photo-gallery">
-            <div class="photo-item"><img src="images/smiling.jpg" alt="smile"></div>
-            <div class="photo-item"><img src="images/lights%20up.jpg" alt="lights"></div>
-            <div class="photo-item"><img src="images/DSC02702_JPG.jpg" alt="hands"></div>
-            <div class="photo-item"><img src="images/DSC02700_JPG.jpg" alt="red lights"></div>
-            <div class="photo-item"><img src="images/badragas-encore.jpg" alt="encore"></div>
-            <div class="photo-item"><img src="images/D33_2004-01-15_028_JPG.jpg" alt="D33"></div>
-            <div class="photo-item"><img src="images/DSC02684_JPG.jpg" alt="steve"></div>
-            <div class="photo-item"><img src="images/DSC02693_JPG_jpg.jpg" alt="lights left"></div>
-            <div class="photo-item"><img src="images/DSC02694_JPG_jpg.jpg" alt="alex"></div>
-        </div>
+        <div class="photo-item"><img src="images/smiling.jpg" alt="Band members smiling on stage"></div>
+        <div class="photo-item"><img src="images/lights%20up.jpg" alt="Stage lights over the band"></div>
+        <div class="photo-item"><img src="images/DSC02702_JPG.jpg" alt="Guitar close-up under red lighting"></div>
+        <div class="photo-item"><img src="images/DSC02700_JPG.jpg" alt="Drummer and guitarists in red stage light"></div>
+        <div class="photo-item"><img src="images/badragas-encore.jpg" alt="The Bad Ragas taking an encore bow"></div>
+        <div class="photo-item"><img src="images/D33_2004-01-15_028_JPG.jpg" alt="Live show at D33 in 2004"></div>
+        <div class="photo-item"><img src="images/DSC02684_JPG.jpg" alt="Steve playing live"></div>
+        <div class="photo-item"><img src="images/DSC02693_JPG_jpg.jpg" alt="Blue stage lights from stage left"></div>
+        <div class="photo-item"><img src="images/DSC02694_JPG_jpg.jpg" alt="Alex singing into microphone"></div>
     </div>
 </section>
 <!--<section id="store">-->

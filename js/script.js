@@ -19,4 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
             hamburger.setAttribute('aria-expanded', 'false');
         });
     });
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            navMenu.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+    });
 });
