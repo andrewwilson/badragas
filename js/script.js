@@ -26,4 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
             hamburger.setAttribute('aria-expanded', 'false');
         }
     });
+
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            navMenu.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+    });
 });
