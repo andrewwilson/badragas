@@ -53,13 +53,23 @@ header h1 {
     font-size: 4em;
 }
 
-header button {
+.cta-link {
+    display: inline-block;
     background-color: #e91e63;
     color: #fff;
     border: none;
     padding: 15px 30px;
     font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
     cursor: pointer;
+    border-radius: 6px;
+}
+
+.cta-link:hover,
+.cta-link:focus-visible {
+    background-color: #d31717;
 }
 
 section {
@@ -187,7 +197,7 @@ iframe {
         padding: 10px;
     }
 
-    .hamburger div {
+    .hamburger span {
         width: 25px;
         height: 3px;
         background-color: #fff;
@@ -198,6 +208,9 @@ iframe {
 /* Hamburger menu styles */
 .hamburger {
     display: none; /* Hide by default on larger screens */
+    background: transparent;
+    border: 0;
+    margin: 0;
 }
 
 @media (max-width: 768px) {

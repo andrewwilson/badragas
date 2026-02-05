@@ -10,35 +10,29 @@
 
 <body>
 <nav>
-    <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <ul>
+    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <ul id="main-nav">
         <li><a href="#home">Home</a></li>
         <li><a href="#music">Music</a></li>
         <li><a href="#videos">Videos</a></li>
         <li><a href="#posters">Posters</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <!--      <li><a href="#contact">Contact</a></li>-->
-        <li><a href="https://instagram.com/thebadragas" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://youtube.com/@thebadragas2288" target="_blank"><i class="fab fa-youtube"></i></a></li>
-        <li><a href="archive.html" target="_blank">Archive</a></li>
+        <li><a href="https://instagram.com/thebadragas" target="_blank" rel="noopener noreferrer" aria-label="The Bad Ragas on Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://youtube.com/@thebadragas2288" target="_blank" rel="noopener noreferrer" aria-label="The Bad Ragas on YouTube"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="archive.html" target="_blank" rel="noopener noreferrer">Archive</a></li>
     </ul>
 </nav>
 <header id="home">
     <div class="hero">
         <h1>The Bad Ragas</h1>
-        <a href="#music">
-            <button>Listen Now</button>
-        </a>
-        <a href="#videos">
-            <button>Watch Now</button>
-        </a>
-        <a href="#about">
-            <button>Learn More</button>
-        </a>
+        <a class="cta-link" href="#music">Listen Now</a>
+        <a class="cta-link" href="#videos">Watch Now</a>
+        <a class="cta-link" href="#about">Learn More</a>
     </div>
 </header>
 <section id="about">
@@ -53,10 +47,12 @@
     <div class="music-player">
         <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/track/3Ho7bBdiBFBzrtzqt68xOg?utm_source=generator&theme=0"
-                width="100%" height="352" frameBorder="0" allowfullscreen=""
+                title="Spotify player for Reload"
+                width="100%" height="352" frameborder="0" allowfullscreen
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"></iframe>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="10" height="450"
+        <iframe title="Apple Music player for Reload"
+                allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
                 style="width:100%;overflow:hidden;background:transparent;"
                 sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
                 src="https://embed.music.apple.com/gb/album/reload-single/1624592546">
@@ -64,37 +60,37 @@
         </iframe>
     </div>
     <div class="music-player">
-        <a href="https://music.youtube.com/channel/UC3Z1y7Okr7tBQlNuZkEY19g?si=H2g9naMeYitZFv8z" target="_blank">
+        <a href="https://music.youtube.com/channel/UC3Z1y7Okr7tBQlNuZkEY19g?si=H2g9naMeYitZFv8z" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-youtube"></i></a>&nbsp;YouTube Music&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://music.apple.com/gb/album/reload-single/1624592546">
+        <a href="https://music.apple.com/gb/album/reload-single/1624592546" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-apple"></i></a>&nbsp;Apple Music&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://open.spotify.com/track/3Ho7bBdiBFBzrtzqt68xOg?si=5a6e3b3faa1046d6" target="_blank">
+        <a href="https://open.spotify.com/track/3Ho7bBdiBFBzrtzqt68xOg?si=5a6e3b3faa1046d6" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-spotify"></i></a>&nbsp;Spotify
     </div>
 
 </section>
 <section id="videos">
     <h2>Videos</h2>
-    <p><a href="https://www.youtube.com/channel/UCpTy4OFF5rEfR8mzAYCuRgA" target="_blank">
+    <p><a href="https://www.youtube.com/channel/UCpTy4OFF5rEfR8mzAYCuRgA" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-youtube-square"></i></a>
         Visit our YouTube Channel
     </p>
 
     <div class="featured-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/heHorqF8mfQ" frameborder="0"
+        <iframe title="DFG live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/heHorqF8mfQ" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         <br/>DFG - Volkshaus Zürich<br/><br/>
     </div>
     <div class="featured-video">
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uGvzHVKVT7E" frameborder="0"
+        <iframe title="Reload live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/uGvzHVKVT7E" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         <br/>Reload - Volkshaus Zürich<br/><br/>
     </div>
     <div class="featured-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/AUCd56eLAH4" frameborder="0"
+        <iframe title="Groovy Garda live at Volkshaus Zurich" width="560" height="315" src="https://www.youtube.com/embed/AUCd56eLAH4" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         <br/>Groovy Garda - Volkshaus Zürich<br/><br/>
@@ -102,7 +98,7 @@
     <br/>
     <div class="featured-video">
         <!-- single video: Reload promo vid -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XGWGQgk9jAQ" frameborder="0"
+        <iframe title="Reload promo video" width="560" height="315" src="https://www.youtube.com/embed/XGWGQgk9jAQ" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         <br/>Reload promo video <br/><br/>
