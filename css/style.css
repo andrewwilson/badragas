@@ -146,6 +146,21 @@ section h2 {
     letter-spacing: 0.06em;
 }
 
+.section-subtitle {
+    margin: -6px 0 24px;
+    color: var(--muted);
+}
+
+.section-subtitle a {
+    color: var(--accent-2);
+    font-weight: 700;
+}
+
+.section-subtitle a:hover,
+.section-subtitle a:focus-visible {
+    color: #fff;
+}
+
 #about p {
     max-width: 760px;
     margin: 0 auto;
