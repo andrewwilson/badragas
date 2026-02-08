@@ -133,6 +133,7 @@ header h1 {
 section {
     padding: 60px 20px;
     text-align: center;
+    scroll-margin-top: 84px;
 }
 
 section:nth-of-type(even) {
@@ -146,18 +147,18 @@ section h2 {
     letter-spacing: 0.06em;
 }
 
-.section-subtitle {
-    margin: -6px 0 24px;
+.footer-credit {
+    margin: 0 0 10px;
     color: var(--muted);
 }
 
-.section-subtitle a {
+.footer-credit a {
     color: var(--accent-2);
     font-weight: 700;
 }
 
-.section-subtitle a:hover,
-.section-subtitle a:focus-visible {
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
     color: #fff;
 }
 

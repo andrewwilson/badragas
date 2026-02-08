@@ -33,4 +33,18 @@ document.addEventListener('DOMContentLoaded', function() {
             hamburger.setAttribute('aria-expanded', 'false');
         }
     });
+
+    // Re-apply hash anchor after full page load to avoid media/layout shift drift.
+    window.addEventListener('load', function() {
+        if (!window.location.hash) {
+            return;
+        }
+        const target = document.querySelector(window.location.hash);
+        if (!target) {
+            return;
+        }
+        setTimeout(function() {
+            target.scrollIntoView();
+        }, 0);
+    });
 });
