@@ -157,6 +157,12 @@ section h2 {
     margin: 0 auto 28px;
 }
 
+.music-embeds {
+    display: grid;
+    gap: 16px;
+    align-items: start;
+}
+
 .embed-wrap {
     position: relative;
     width: 100%;
@@ -187,6 +193,25 @@ section h2 {
 .embed-wrap-tall {
     aspect-ratio: 16 / 10;
     max-width: 760px;
+}
+
+#music .embed-wrap-spotify {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    height: 352px;
+}
+
+#music .embed-wrap-spotify iframe {
+    position: static;
+    width: 100%;
+    height: 352px;
+}
+
+#music .embed-wrap-apple {
+    aspect-ratio: 16 / 10;
+    max-width: 760px;
+    width: 100%;
 }
 
 .video-caption {
@@ -372,4 +397,19 @@ footer {
         padding: 50px 16px;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .music-embeds {
+        grid-template-columns: 500px minmax(0, 1fr);
+    }
+
+    #music .embed-wrap-spotify,
+    #music .embed-wrap-apple {
+        margin: 0;
+    }
+
+    #music .embed-wrap-apple {
+        max-width: none;
+    }
 }
