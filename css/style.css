@@ -271,6 +271,7 @@ section h2 {
 .poster-item img,
 .photo-item img {
     width: 100%;
+    height: auto;
     display: block;
     border-radius: 10px;
     border: 1px solid var(--border);
